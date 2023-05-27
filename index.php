@@ -65,7 +65,7 @@
 // echo $i .'<br/>';
 // echo $i *2 .'<br/>';
 
-
+echo '1st Pyramid' . '<br/>';
 $i=1;
 while($i <=5){
     $output = str_repeat('*', $i);
@@ -74,8 +74,7 @@ while($i <=5){
 }
 
 echo '<br/>';
-echo '<br/>';
-
+echo '2nd Pyramid' . '<br/>';
 
 $i = 5;
 while($i >= 1){
